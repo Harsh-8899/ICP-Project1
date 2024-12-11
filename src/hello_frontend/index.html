@@ -2,16 +2,151 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>IC Hello Starter</title>
-  <base href="/" />
-  <link rel="icon" href="/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to College Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #003366;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #0059b3;
+        }
+
+        .banner {
+            background: url('college-banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #004080;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #004080;
+            display: inline-block;
+        }
+
+        .section p, .section ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .section ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+    <header>
+        <h1>Welcome to [College Name]</h1>
+        <p>Your Gateway to Excellence in Education</p>
+    </header>
 
-</html>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <h1>Empowering Future Leaders</h1>
+    </div>
+
+    <div class="content">
+        <section class="section" id="about">
+            <h2>About Us</h2>
+            <p>[College Name] is a premier institution committed to academic excellence, innovation, and holistic student development. Our state-of-the-art facilities and experienced faculty provide the perfect environment for learning and growth.</p>
+        </section>
+
+        <section class="section" id="programs">
+            <h2>Our Programs</h2>
+            <ul>
+                <li>Bachelor's in Computer Science</li>
+                <li>Bachelor's in Mechanical Engineering</li>
+                <li>Master's in Business Administration</li>
+                <li>Ph.D. Programs in Various Disciplines</li>
+            </ul>
+        </section>
+
+        <section class="section" id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><strong>Orientation Day:</strong> September 1, 2024</li>
+                <li><strong>Annual Tech Fest:</strong> October 15-17, 2024</li>
+                <li><strong>Graduation Ceremony:</strong> December 20, 2024</li>
+            </ul>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> 123 College Lane, City, State, ZIP</p>
+            <p><strong>Email:</strong> info@college.edu</p>
+            <p><strong>Phone:</strong> +1 (123)
